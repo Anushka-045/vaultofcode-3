@@ -52,8 +52,6 @@
       letter-spacing: 0.04em;
       text-transform: uppercase;
     }
-
-    /* --- grid --- */
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -61,8 +59,6 @@
       max-width: 900px;
       margin: 0 auto;
     }
-
-    /* --- card --- */
     .card {
       background: var(--card);
       border: 1px solid var(--card-border);
@@ -90,7 +86,6 @@
       box-shadow: 0 12px 40px rgba(255,77,77,0.1);
     }
 
-    /* top accent line */
     .card-accent {
       position: absolute;
       top: 0; left: 0; right: 0;
@@ -116,8 +111,6 @@
       letter-spacing: -0.01em;
       color: #fff;
     }
-
-    /* detail rows */
     .details {
       display: flex;
       flex-direction: column;
@@ -144,7 +137,6 @@
       white-space: nowrap;
     }
 
-    /* button */
     .btn {
       display: inline-block;
       margin-top: auto;
@@ -163,8 +155,6 @@
     }
 
     .btn:hover { opacity: 0.88; transform: scale(0.98); }
-
-    /* per-card button colours */
     .card:nth-child(2) .btn { background: linear-gradient(135deg, #4d9fff, #a64dff); }
     .card:nth-child(3) .btn { background: linear-gradient(135deg, #4dffc3, #4d9fff); color: #0d0f14; }
     .card:nth-child(4) .btn { background: linear-gradient(135deg, #f7c948, #ff8c42); color: #0d0f14; }
@@ -178,8 +168,6 @@
   </div>
 
   <div class="grid">
-
-    <!-- Card 1 -->
     <div class="card">
       <div class="card-accent"></div>
       <div class="card-icon">🌐</div>
@@ -192,8 +180,6 @@
       </div>
       <a class="btn" href="https://vaultofcodes.in" target="_blank" rel="noopener">View Details</a>
     </div>
-
-    <!-- Card 2 -->
     <div class="card">
       <div class="card-accent"></div>
       <div class="card-icon">📱</div>
@@ -206,8 +192,6 @@
       </div>
       <a class="btn" href="https://vaultofcodes.in" target="_blank" rel="noopener">View Details</a>
     </div>
-
-    <!-- Card 3 -->
     <div class="card">
       <div class="card-accent"></div>
       <div class="card-icon">🐍</div>
@@ -220,8 +204,6 @@
       </div>
       <a class="btn" href="https://vaultofcodes.in" target="_blank" rel="noopener">View Details</a>
     </div>
-
-    <!-- Card 4 -->
     <div class="card">
       <div class="card-accent"></div>
       <div class="card-icon">☕</div>
